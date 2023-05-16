@@ -5,6 +5,7 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
+    "test": "jest",
     "dev": "tsnd --respawn ./src/index.ts",
     "build": "tsc", 
 	"start": "node ./build/index.js"
